@@ -3,7 +3,7 @@
   "content_scripts": [
     {
       "js": ["content.js"],
-      "matches": ["http://*/*", "https://*/*"]
+      "matches": ["http://www.action.com/de-de/favoriten/", "https://www.action.com/de-de/favoriten/"]
     }
   ]
 }
