@@ -1,9 +1,19 @@
 {
-  "background": { "scripts": ["background.js"] },
+  "name": "Action Price",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "action": {},
   "content_scripts": [
     {
-      "js": ["content.js"],
+      "run_at": "document_idle",
+      "js": ["contentScript/index.js"],
+      "css" : ["styles/content.css"],
       "matches": ["http://www.action.com/de-de/favoriten/", "https://www.action.com/de-de/favoriten/"]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background/index.js"
+  },
+  "permissions": ["tabs", "scripting"],
+  "host_permissions": ["https://*/*", "http://*/*"]
 }

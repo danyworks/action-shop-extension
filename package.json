@@ -1,12 +1,12 @@
 {
-  "name": "javascript-boilerplate",
+  "name": "action-price",
   "version": "1.0.0",
   "private": true,
-  "description": "This Chrome Extension boilerplate supports modern, modular JavaScript and automatic reloading during development.",
+  "description": "This Chrome Extension supports modern, modular JavaScript and automatic reloading during development.",
   "license": "MIT",
   "author": {
-    "name": "Jack Steam",
-    "email": "jacksteamdev@gmail.com"
+    "name": "Daniyal Ibrahim",
+    "email": "daniyal.ibrahim10@gmail.com"
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production rollup -c",

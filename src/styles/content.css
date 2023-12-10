@@ -1,0 +1,9 @@
+div[class="offerList-item item-changed"] {
+  order: 100;
+}
+.calculation {
+  position: absolute;
+  right: 10px;
+  top: 42px;
+  font-weight: bold;
+}
